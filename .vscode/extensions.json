@@ -6,6 +6,7 @@
     "esbenp.prettier-vscode",
     "visualstudioexptteam.vscodeintellicode",
     "pflannery.vscode-versionlens",
-    "eamodio.gitlens"
+    "eamodio.gitlens",
+    "naumovs.theme-oceanicnext"
   ]
 }
