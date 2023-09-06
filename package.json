@@ -16,7 +16,7 @@
     "up-latest": "pnpm up-interactive -L"
   },
   "dependencies": {
-    "@types/node": "^20.5.6",
+    "@types/node": "^20.5.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0"
