@@ -3,7 +3,7 @@
 
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
-import { resolve } from 'path';
+import path from 'path';
 import { configDefaults } from 'vitest/config';
 
 // https://vitejs.dev/config/
@@ -11,17 +11,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '~': resolve(__dirname, 'src'),
-      assets: resolve(__dirname, 'src/assets'),
-      components: resolve(__dirname, 'src/components'),
-      features: resolve(__dirname, '/src/features'),
-      hooks: resolve(__dirname, 'src/hooks'),
-      mocks: resolve(__dirname, 'src/mocks'),
-      pages: resolve(__dirname, 'src/pages'),
-      providers: resolve(__dirname, 'src/providers'),
-      routes: resolve(__dirname, 'src/routes'),
-      types: resolve(__dirname, 'src/types'),
-      utils: resolve(__dirname, 'src/utils'),
+      '@': path.resolve(__dirname, './src'),
     },
   },
   test: {
